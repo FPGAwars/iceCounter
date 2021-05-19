@@ -66,7 +66,7 @@
           "id": "14df7af4-95c6-4e6b-a6a1-a03d7a56d4bc",
           "type": "basic.info",
           "data": {
-            "info": "## Example 1: Manual testing with one button an one LED\n\nWhen the button is pressed, the LED state is changed",
+            "info": "## Example 1: Manual testing with one button and one LED\n\nWhen the button is pressed, the LED state is changed",
             "readonly": true
           },
           "position": {
