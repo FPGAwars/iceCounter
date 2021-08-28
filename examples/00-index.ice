@@ -524,22 +524,10 @@
           }
         },
         {
-          "id": "2a09ed09-a7bf-45d6-b4e7-9ffeda0377a8",
-          "type": "51ae054d74c21a699bfd426fc24d5e4b56e68876",
-          "position": {
-            "x": 888,
-            "y": 472
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "664229ae-ac7d-487a-aa50-c4edc39a0446",
           "type": "basic.info",
           "data": {
-            "info": "## Syscounter-modM",
+            "info": "## Syscounter-modM-rst",
             "readonly": true
           },
           "position": {
@@ -547,7 +535,7 @@
             "y": 272
           },
           "size": {
-            "width": 192,
+            "width": 224,
             "height": 40
           }
         },
@@ -565,6 +553,18 @@
           "size": {
             "width": 96,
             "height": 32
+          }
+        },
+        {
+          "id": "56fe36b3-3c23-4aec-9a19-fd1f373e668b",
+          "type": "51ae054d74c21a699bfd426fc24d5e4b56e68876",
+          "position": {
+            "x": 888,
+            "y": 472
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         }
       ],
