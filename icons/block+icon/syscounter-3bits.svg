@@ -1845,8 +1845,8 @@
      showgrid="false"
      inkscape:current-layer="layer2"
      inkscape:document-units="mm"
-     inkscape:cy="212.10532"
-     inkscape:cx="343.33596"
+     inkscape:cy="192.77678"
+     inkscape:cx="330.11116"
      inkscape:zoom="0.9830022"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -1904,6 +1904,11 @@
        id="path865-2-1"
        d="m 131.00229,116.09476 h 7.93915"
        style="display:inline;opacity:1;fill:none;stroke:#777777;stroke-width:2.28281;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path865-2-1-5"
+       d="m 131.00229,84.585957 h 7.93915"
+       style="display:inline;fill:none;stroke:#777777;stroke-width:3.70416667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        transform="translate(-176.22529,-2.51955)"
        style="display:none"
