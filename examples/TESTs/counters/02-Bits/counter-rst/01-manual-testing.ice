@@ -140,8 +140,8 @@
           }
         },
         {
-          "id": "e7757d64-cd0a-45df-9b07-45b0bd1af45e",
-          "type": "e501bbc31437b488664c94f3606978fe014f8349",
+          "id": "b14e3fc5-c3e3-4e16-9ff1-0d086636d9f2",
+          "type": "ff8980c00508c16530be4b8c1fd8a77671097c73",
           "position": {
             "x": 1040,
             "y": 304
@@ -165,17 +165,7 @@
         },
         {
           "source": {
-            "block": "3d125749-a58d-4b04-8109-778237ecfcbc",
-            "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
-          },
-          "target": {
-            "block": "e7757d64-cd0a-45df-9b07-45b0bd1af45e",
-            "port": "5726f071-b4ae-41b8-8b84-4f6b17c49e13"
-          }
-        },
-        {
-          "source": {
-            "block": "e7757d64-cd0a-45df-9b07-45b0bd1af45e",
+            "block": "b14e3fc5-c3e3-4e16-9ff1-0d086636d9f2",
             "port": "40941bd2-014e-4fca-8f0f-7769b8567ac0"
           },
           "target": {
@@ -186,7 +176,7 @@
         },
         {
           "source": {
-            "block": "e7757d64-cd0a-45df-9b07-45b0bd1af45e",
+            "block": "b14e3fc5-c3e3-4e16-9ff1-0d086636d9f2",
             "port": "5ba18501-0c42-44d7-a52b-f528b8e1c4ef"
           },
           "target": {
@@ -200,7 +190,7 @@
             "port": "out"
           },
           "target": {
-            "block": "e7757d64-cd0a-45df-9b07-45b0bd1af45e",
+            "block": "b14e3fc5-c3e3-4e16-9ff1-0d086636d9f2",
             "port": "c6cd8ad2-63c9-432d-9d07-c15dde843e36"
           },
           "vertices": [
@@ -209,6 +199,16 @@
               "y": 312
             }
           ]
+        },
+        {
+          "source": {
+            "block": "3d125749-a58d-4b04-8109-778237ecfcbc",
+            "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
+          },
+          "target": {
+            "block": "b14e3fc5-c3e3-4e16-9ff1-0d086636d9f2",
+            "port": "5726f071-b4ae-41b8-8b84-4f6b17c49e13"
+          }
         }
       ]
     }
@@ -3400,7 +3400,7 @@
         }
       }
     },
-    "e501bbc31437b488664c94f3606978fe014f8349": {
+    "ff8980c00508c16530be4b8c1fd8a77671097c73": {
       "package": {
         "name": "Counter-rst-x02",
         "version": "0.1",
@@ -3618,8 +3618,7 @@
               "type": "basic.input",
               "data": {
                 "name": "cnt",
-                "clock": false,
-                "virtual": false
+                "clock": false
               },
               "position": {
                 "x": 208,
@@ -3676,7 +3675,8 @@
             {
               "source": {
                 "block": "4b4e7c1e-a737-4e36-b3ad-339a66dafd5c",
-                "port": "c5552c7d-fb01-40a0-bc51-a755b6e1ec54"
+                "port": "c5552c7d-fb01-40a0-bc51-a755b6e1ec54",
+                "size": 2
               },
               "target": {
                 "block": "b8661772-15e0-411e-bcc1-716874795e2a",
@@ -3691,7 +3691,8 @@
               },
               "target": {
                 "block": "40941bd2-014e-4fca-8f0f-7769b8567ac0",
-                "port": "in"
+                "port": "in",
+                "size": 2
               },
               "size": 2
             },
@@ -3702,7 +3703,8 @@
               },
               "target": {
                 "block": "670ca6e5-6365-48cc-bc76-b1ac3efd3427",
-                "port": "5e178803-3b15-4a9f-a784-a729479a892c"
+                "port": "5e178803-3b15-4a9f-a784-a729479a892c",
+                "size": 2
               },
               "size": 2
             },
