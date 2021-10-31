@@ -111,7 +111,7 @@
           "id": "14df7af4-95c6-4e6b-a6a1-a03d7a56d4bc",
           "type": "basic.info",
           "data": {
-            "info": "## Example 1: Manual testing with buttons and one LED\n\nWhen the button is pressed, the counter is incrementd. Its output is  \nshown on the LEDs",
+            "info": "## Example 1: Manual testing with buttons and one LED\n\nWhen the button is pressed, the counter is incrementd. Its output is  \nshown on the LEDs. when the SW2 button is pressed, the counter is reset",
             "readonly": true
           },
           "position": {
