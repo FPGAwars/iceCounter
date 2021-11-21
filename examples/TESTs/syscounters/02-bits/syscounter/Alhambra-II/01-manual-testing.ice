@@ -699,23 +699,23 @@
             },
             {
               "source": {
-                "block": "53b94482-9f8d-4645-99db-09b2855dc955",
-                "port": "27bf261d-2582-4ab9-a62d-ff91f1bd855e"
-              },
-              "target": {
-                "block": "96b7f507-2a03-4f0a-bcd7-b8ad76472ae7",
-                "port": "e699a6f3-fd6f-49dc-a8d3-d35853cb8e6b"
-              },
-              "size": 2
-            },
-            {
-              "source": {
                 "block": "5c9cdbb7-20bb-41e8-9484-b7327330d63c",
                 "port": "outlabel"
               },
               "target": {
                 "block": "53b94482-9f8d-4645-99db-09b2855dc955",
                 "port": "5e178803-3b15-4a9f-a784-a729479a892c"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "53b94482-9f8d-4645-99db-09b2855dc955",
+                "port": "27bf261d-2582-4ab9-a62d-ff91f1bd855e"
+              },
+              "target": {
+                "block": "96b7f507-2a03-4f0a-bcd7-b8ad76472ae7",
+                "port": "e699a6f3-fd6f-49dc-a8d3-d35853cb8e6b"
               },
               "size": 2
             }
