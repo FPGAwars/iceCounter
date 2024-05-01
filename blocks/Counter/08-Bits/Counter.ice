@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "Counter-x08",
-    "version": "0.3",
+    "version": "0.4",
     "description": "Counter-x08: 8-bits counter",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20width=%22398.636%22%20height=%22254.842%22%20viewBox=%220%200%20105.47239%2067.427032%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cg%20transform=%22translate(-40.24%20-4.54)%22%3E%3Cpath%20d=%22M138.803%2048.49V16.91%22%20fill=%22#00f%22%20stroke=%22#00f%22%20stroke-width=%222.806%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-end=%22url(#a)%22/%3E%3Crect%20rx=%222.807%22%20ry=%222.807%22%20y=%225.289%22%20x=%2299.747%22%20height=%2247.849%22%20width=%2229.538%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%221.497%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20transform=%22scale(.94516%201.05802)%22%20y=%2240.921%22%20x=%22108.575%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%228.982%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%221.497%22%3E%3Ctspan%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2240.921%22%20x=%22108.575%22%20font-weight=%22700%22%20font-size=%2235.656%22%3E0%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M100.868%2030.283h27.764%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222.245%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Crect%20rx=%222.807%22%20ry=%222.807%22%20y=%225.289%22%20x=%2266.333%22%20height=%2247.849%22%20width=%2229.538%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%221.497%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20transform=%22scale(.94516%201.05802)%22%20y=%2240.921%22%20x=%2273.223%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%228.982%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%221.497%22%3E%3Ctspan%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2240.921%22%20x=%2273.223%22%20font-weight=%22700%22%20font-size=%2235.656%22%3E0%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M67.454%2030.283h27.764%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222.245%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-29.298)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
@@ -50,49 +50,13 @@
           }
         },
         {
-          "id": "8711763c-30df-4124-9152-601fdb9d473e",
-          "type": "basic.outputLabel",
+          "id": "19d7b5cf-9261-4603-a55e-739b5d9b52df",
+          "type": "basic.inputLabel",
           "data": {
-            "name": "q",
-            "range": "[7:0]",
+            "name": "max",
             "blockColor": "fuchsia",
             "virtual": true,
             "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
               {
                 "index": "0",
                 "name": "NULL",
@@ -101,7 +65,21 @@
             ]
           },
           "position": {
-            "x": 312,
+            "x": 496,
+            "y": 96
+          }
+        },
+        {
+          "id": "8711763c-30df-4124-9152-601fdb9d473e",
+          "type": "basic.outputLabel",
+          "data": {
+            "name": "q",
+            "range": "[7:0]",
+            "blockColor": "fuchsia",
+            "size": 8
+          },
+          "position": {
+            "x": 208,
             "y": 136
           }
         },
@@ -110,51 +88,8 @@
           "type": "basic.output",
           "data": {
             "name": "",
-            "virtual": true,
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "inout": false
+            "size": 8
           },
           "position": {
             "x": 1144,
@@ -168,49 +103,7 @@
             "name": "q",
             "range": "[7:0]",
             "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 1000,
@@ -224,43 +117,21 @@
             "name": "q",
             "range": "[7:0]",
             "blockColor": "fuchsia",
+            "size": 8
+          },
+          "position": {
+            "x": 792,
+            "y": 152
+          }
+        },
+        {
+          "id": "16483e90-7419-42ff-b8d6-112e0ce9051c",
+          "type": "basic.outputLabel",
+          "data": {
+            "name": "max",
+            "blockColor": "fuchsia",
             "virtual": true,
             "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
               {
                 "index": "0",
                 "name": "NULL",
@@ -269,8 +140,27 @@
             ]
           },
           "position": {
-            "x": 792,
-            "y": 152
+            "x": 1000,
+            "y": 232
+          }
+        },
+        {
+          "id": "1fa42fd9-f79d-4e81-8dff-e80ea8026b15",
+          "type": "basic.output",
+          "data": {
+            "name": "max",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 1144,
+            "y": 232
           }
         },
         {
@@ -301,7 +191,7 @@
           "id": "ff804141-7ae1-4624-8eb2-bf333f3fd94a",
           "type": "4ad802d33863d0c951d775d6b62c1b3d428a1d85",
           "position": {
-            "x": 456,
+            "x": 352,
             "y": 136
           },
           "size": {
@@ -367,6 +257,26 @@
             "size": 8
           },
           "size": 8
+        },
+        {
+          "source": {
+            "block": "ff804141-7ae1-4624-8eb2-bf333f3fd94a",
+            "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
+          },
+          "target": {
+            "block": "19d7b5cf-9261-4603-a55e-739b5d9b52df",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "16483e90-7419-42ff-b8d6-112e0ce9051c",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "1fa42fd9-f79d-4e81-8dff-e80ea8026b15",
+            "port": "in"
+          }
         },
         {
           "source": {
